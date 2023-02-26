@@ -23,18 +23,118 @@ int main() {
   //   cout<<endl;
   // }
 
-  // HOLLOW RECTANGLE
-  int row, col;
-  cout << "HOLLOW RECTANGLE\n";
-  cin >> row >> col;
-  for (int i = 1; i <= row; ++i) {
-    for (int j = 1; j <= col; ++j) {
-      if (i == 1 || i == row || j == 1 || j == col) {
-        cout << "* ";
-      } else {
-        cout << "  ";
-      }
-    }
-    cout << endl;
-  }
+  // // HOLLOW RECTANGLE
+  // cout<<"HOLLOW RECTANGLE\n";
+  // int row,col;
+  // cin>>row>>col;
+  // for(int i = 0;i<row;++i){
+  //   if(i==0 || i==(row-1)){
+  //     for(int j=0;j<col;++j){
+  //       cout<<"* ";
+  //     }
+  //   }
+  //   else{
+  //     cout<<"* ";
+  //     for(int j = 0;j<(col-2);++j){
+  //       cout<<"  ";
+  //     }
+  //     cout<<'*';
+  //   }
+  //   cout<<endl;
+  // }
+
+  // // HALF
+  // cout<<"HALF  \n";
+  // int row;cin>>row;
+  // for(int i = 1;i<=row;++i){
+  //   for(int j = 1;j<=i;++j){
+  //     cout<<"* ";
+  //   }
+  //   cout<<endl;
+  // }
+
+  // //INVERTED HALF
+  // cout<<"INVERTED HALF  \n";
+  // int n;cin>>n;
+  // for(int i = 0;i<n;++i){
+  //   for(int j=0;j<(n-i);++j){
+  //     cout<<"* ";
+  //   }
+  //   cout<<endl;
+  // }
+
+  // //NUMERIC HALF
+  // cout<<"NUMERIC HALF  \n";
+  // int row;
+  // cin>>row;
+  // for(int i = 0;i<row;++i){
+  //   for(int j = 1;j<=i+1;++j){
+  //     cout<<j<<" ";
+  //   }
+  //   cout<<endl;
+  // }
+
+  // //NUMERIC INVERTED HALF
+  // cout<<"NUMERIC INVERTED HALF  \n";
+  // int row;cin>>row;
+  // for( int i=0;i<row;++i){
+  //   for(int j=1;j<=row-i;++j){
+  //     cout<<j<<" ";
+  //   }
+  //   cout<<endl;
+  // }
+
+  // //FULL PYRAMID
+  // cout<<"FULL PYRAMID\n";
+  // int row;
+  // cin>>row;
+  // for(int i = 0;i<row;i++){
+  //   for(int space = 1;space < row-i;space++){
+  //     cout<<" ";
+  //   }
+  //   for(int j = 0;j<=i;++j){
+  //     cout<<" *";
+  //   }
+  //   cout<<endl;
+  // }
+
+  // // INVERTED FULL PYRAMID
+  // cout<<"INVERTED FULL PYRAMID\n";
+  // int row;cin>>row;
+  // for(int i = 0;i<row;++i){
+  //   for(int space = 1;space<=i;space++){
+  //     cout<<" ";
+  //   }
+  //   for(int j = 0;j<row-i;j++){
+  //     cout<<" *";
+  //   }
+  //   cout<<endl;
+  // }
+
+
+  // //NUMERIC HOLLOW FULL PYRAMID
+  // cout<<"NUMERIC HOLLOW FULL PYRAMID\n";
+  // int row;cin>>row;
+  // for(int i = 1;i<=row;i++){
+  //   int space = row - i;
+  //   for(;space>=1;space--){
+  //     cout<<" ";
+  //   }
+  //   if(i==row){
+  //     for(int j = 1;j<=row;j++){
+  //       cout<<j<<" ";
+  //     }
+  //   }
+  //   else{
+  //   for(int j = 1;j<=i;j++){
+  //     if(j==1){cout<<j<<" ";}
+  //     else if(j==i){cout<<j<<" ";}
+  //     else{cout<<"  ";}
+  //        }
+  //   }
+  //   cout<<endl;
+  // }
+
+
+  
 }
